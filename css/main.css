@@ -1,0 +1,35 @@
+html, body {
+    height: 100%;
+  }
+  
+  html, * {
+    box-sizing: border-box;
+    outline: none;
+  }
+  
+  * {
+    font-size: 20px;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  button, input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid grey;
+  }
+  
+  button:hover {
+    background-color: darkgrey;
+    color: white;
+  }
+  
+  h1 {
+    margin: 0;
+  }
